@@ -15,7 +15,8 @@ body, html {
     /*fade*/
 
 #stage {
-    width: 460px;
+  margin-top: -2.5em;
+    width: 445px;
     height: 600px;
   }
 
@@ -23,7 +24,7 @@ body, html {
     position: absolute;
   }
   #stage a img {
-    padding: 10px;
+    padding: 11px;
 max-height: 700px;
   }
 
@@ -60,7 +61,6 @@ max-height: 700px;
 
 
 
-
  #img {
   width: 100%;
   height: 100%;
@@ -85,6 +85,7 @@ max-height: 700px;
     align-items: center;
     margin-top: 30px;
     font-size: 14px;
+    margin-right: 60px;
   }
   
   .loginbox {
@@ -96,10 +97,11 @@ max-height: 700px;
     align-items: center;
     flex-direction: column;
     background-color: #ffff;
-    border: 1px solid #e6e6e6;
+    border: 1px solid #dadada;
     border-radius: 1px;
     padding: 1em;
 padding-bottom: 1.5em;
+
   }
   
   .instaheading {
