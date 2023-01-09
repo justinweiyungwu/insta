@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram Login Page</title>
+
+</head>
+
+<body>
+    <div class="background">
+        <div class="main">
+            <div class="leftsection">
+                <div id="img">
+                    <div id="stage">
+                        <a href="leftimage1.png"><img src="leftimage1.png"></a>
+                        <a href="leftimage2.png"><img src="leftimage2.png"></a>
+                        <a href="leftimage3.png"><img src="leftimage3.png"></a>
+                        <a href="leftimage4.png"><img src="leftimage4.png"></a>
+                    </div>
+            </div>
+        </div>
+            <div class="rightsection">
+                <div class="instalogin">
+                    <div class="loginbox">
+                        <div class="instaheading">
+                            <img src="instagramheading.png" alt="insta" width="220px">
+                        </div>
+                        <form class="login-form">
+                            <div class="fill">
+                                <input id="username" type="name" placeholder="Phone number, username, or email" />
+
+                            </div>
+                            <div class="fill">
+                                <input type="password" placeholder="Password" />
+                            </div>
+                            <div class="iphonepass">
+                                <a class="forgot-password1">Forgot password?</a>
+                            </div>
+                            <button class="loginbutton">Log in</button>
+                            <div class="or">
+                                <div class="line"></div>
+                                <p class="p">OR</p>
+                                <div class="line"></div>
+                            </div>
+                            <div class="face">
+                                <button class="facebutton" type="button">
+                                    <img class="faceicon" src="facebook.png" alt="">
+                                    <a class="facelink">Log in with Facebook</a>
+                                </button>
+                                <a class="forgot-password">Forgot password?</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="bottombox">
+                        <p>Don't have an account? <a class="signup">Sign Up</a></p>
+                    </div>
+                    <div class="getapp">
+                        <p>Get the app.</p>
+                        <div class="icons">
+                            <a href="https://apps.apple.com/ca/app/instagram/id389801252">
+                                <img class="icon" src="appstore.png" alt="">
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.instagram.android">
+                            <img class="icon" src="googleplay.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+
+window.addEventListener("DOMContentLoaded", function(e) {
+
+  var stage = document.getElementById("stage");
+  var fadeComplete = function(e) { stage.appendChild(arr[0]); };
+  var arr = stage.getElementsByTagName("a");
+  for(var i=0; i < arr.length; i++) {
+    arr[i].addEventListener("animationend", fadeComplete, false);
+  }
+
+}, false);
+
+</script>
+</body>
+
+</html>
