@@ -283,7 +283,7 @@ justify-content: center;
 }
 /*iphone*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 body,html {
 background-color: #ffff;
 }
