@@ -258,21 +258,23 @@ justify-content: center;
         color: #5286dd
       }
 
-/*fading animation*/
-.fade {
-  animation-name: fade;
-  animation-duration: 2s;
-}
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 
 
 /*responsive tablet*/
 @media screen and (max-width: 875px) {
-    .leftsection {
+  .instalogin {
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 14px;
+  
+  }
+  .leftsection {
         display: none;
     }
     .forgot-password1 {
@@ -301,6 +303,7 @@ justify-content: right;
   }
 
   .loginbox {
+    width: 100%;
     margin-top: 5em;
     display: flex;
     justify-content: center;
